@@ -7,7 +7,7 @@ public class Pessoa {
     private String sobrenome;
     private int idade;
     private LocalDate dataNascimento; // Adicione um campo para a data de nascimento
-
+	//agora deu certo
     public int getIdade() {
         return idade;
     }
