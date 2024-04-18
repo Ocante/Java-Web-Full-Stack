@@ -1,7 +1,7 @@
 package projeto1_java;
 
 public class Pessoa {
-    // Dados pessoais
+    // Dados Pessoais
     private String nome;
     private String sobrenome;
     private int idade;
@@ -30,7 +30,7 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    // Método para imprimir os dados formatados
+    // Método para imprimir os dados formatdados
     public void imprimirDadosPessoais() {
         System.out.println("Nome completo: " + nome + " " + sobrenome);
         System.out.println("Idade: " + idade);
@@ -48,7 +48,7 @@ public class Pessoa {
     public static void main(String[] args) {
         // Criando uma instância de Pessoa com dados fictícios
         Pessoa pessoa = new Pessoa("João", "Silva", 30, "Solteiro", "Brasileira", "Rio de Janeiro",
-                "Ensino Superior", "Branca", "Masculino", 75.5, 1.75);
+                "Ensino Superior", "Branca", "Masculino", 73.5, 1.73);
 
         // Chamando o método para imprimir os dados
         pessoa.imprimirDadosPessoais();
